@@ -1,7 +1,7 @@
 # cristianprogramador.github.io
 
 #Coder House 
-PrimeraPreEntrega-CristianCerda-JavaScript
+SegundaPreEntrega-CristianCerda-JavaScript
 
 algoritmo de carro de compras basico 
 
