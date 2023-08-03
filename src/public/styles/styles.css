@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    margin-bottom: 10px;
+    height: 40vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(9, 75, 151, 0.529) 0px 3px 12px;
+}
+
+header h1 {
+    color: rgb(20, 22, 151);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-shadow: rgb(70, 140, 245) 5px 5px 20px ;
+}
+
+#btn-cart {
+    border: none;
+    margin-left: 15rem;
+    padding-top: 10px;
+    color: rgb(9, 9, 9);
+    font-size: 30px;
+    background-color: white;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+#btn-cart:hover {
+    color: rgb(20, 22, 151);
+}
+
+#btn-cart:focus {
+    outline: none;
+}
+
+#container-products {
+    display: grid;
+    gap: 1rem;
+    max-width: 60rem;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.price{
+    color: blue;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.desc {
+    font-size: small
+}
+
+.card {
+    width: 30%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.btn-floating {
+    background-color: rgb(6, 57, 176);
+}
+
+.btn-floating:hover {
+    background-color: rgb(84, 68, 255);
+}
+
+.btn-floating i {
+    font-size: 1.3rem;
+}
+
+.container-modal {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    transition: all .5s;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 5;
+}
+
+.cart-modal {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    min-width: 500px;
+    padding: 20px;
+    margin-top: -100%;
+    transition: all .5s;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.modal-active .cart-modal {
+    margin-top: 0;
+}
+
+.cart-modal h3 {
+    color: rgb(4, 39, 178);
+    text-shadow: rgb(17, 85, 186) 3px 3px 20px  ;
+    padding-bottom: 5px;
+}
+
+.cart-modal #btn-close-cart {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: rgb(255, 0, 0) !important;
+    border: none;
+    background-color: white;
+}
+
+.cart-modal #btn-close-cart:hover {
+    cursor: pointer;
+}
+
+.cart-modal #btn-close-cart:focus {
+    outline: none;
+}
+
+.cart-modal .product-price {
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.card .card-image .card-title {
+    color: rgb(17, 4, 113);
+    position: unset;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.card .card-content .price {
+    font-weight: 500;
+}
+
+.productInCart {
+    border-left: 5px solid  rgb(36, 164, 249);
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productInCart:hover {
+    border-left: 5px solid rgb(0, 13, 255);
+    cursor: pointer;
+    background: rgba(0, 0, 247, 0.467);
+    color: white;
+}
+
+.btn-delete {
+    background-color: white;
+    color: rgb(255, 51, 16);
+    border: none;
+    font-size: 15px;
+}
+
+.btn-delete:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+}
+
+.btn-delete:focus {
+    outline: none;
+    background-color: rgb(0, 45, 191);
+}
+
+
