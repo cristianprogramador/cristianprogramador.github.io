@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="./src/public/styles/styles.css">
+    <title>Retro Gamer</title>
+</head>
+
+<body>
+    <header>
+        <h1>RETRO GAMER</h1>
+        <button id="btn-cart"><i class="fas fa-shopping-cart"></i><span id="counter-cart">0</span></button>
+    </header>
+
+
+    <main id="container-products">
+
+    </main>
+
+    <div class="container-modal">
+        <div class="cart-modal">
+            <h3>Cart</h3>
+            <button id="btn-close-cart"><i class="fas fa-times"></i></button>
+            <div id="container-cart">
+
+            </div>
+
+            <p class="product-price">Dolares Total: $<span id="total-price"></span>
+            </p>
+            <button id="btn-theEndAll">Finalizar Compra</button>
+            <button id="btn-deleteAll">Eliminar Todo</button>
+        </div>
+    </div>
+    <div id="nextGame" class="nextGame">
+        <h3>next Game List</h3>
+    </div>
+
+    <footer class="footer" id="footer">
+        <p>Cristian Cerda</p>
+        <p>Coder House</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./src/public/js/stock.js"></script>
+    <script src="./src/public/js/modals.js"></script>
+    <script src="./src/public/js/cart.js"></script>
+    <script src="./src/public/js/home.js"></script>
+    <script src="./src/public/js/main.js"></script>
+    <script src="./src/public/js/nextTitle.js"></script>
+    <script  src="https://kit.fontawesome.com/7ebad55bd8.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+
+</html>
