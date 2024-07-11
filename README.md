@@ -5,7 +5,7 @@ Entrega-Final-CristianCerda-JavaScript
 
 algoritmo de carro de compras basico 
 En esta oportunidad modificamos toda la manipulacion del DOM En botones de compras, para lograr una interactividad con el usuario.
-
+hola mundo
 Agregue una nueva hoja de estilos CSS 
 Agregue manipulacion del DOM en botones al igual inserte nuevas etiquetas con contenido en mi HTML
 Se modificaron funciones y variables a estandares ES6
