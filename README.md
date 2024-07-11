@@ -1,13 +1,8 @@
-# cristianprogramador.github.io
+# React + Vite
 
-<h1>Porta Folio en Español latino</h1>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Creador: Cristian Cerda Montero
-Software Developer 
+Currently, two official plugins are available:
 
-<h2>Tecnologias Utilizadas</h2>
-
-- HTML
-- CSS
-- JAVASCRIPT
-- REACT JS
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
